@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="save"
+        android:text="save"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="get"
+        android:text="get"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btn_getlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getlist"
+        android:text="get list"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:text="delete"
+        tools:ignore="OnClick"
+        android:id="@+id/btn_delete"
+        android:onClick="delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_flower"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="center" />
+
+
+</LinearLayout>
